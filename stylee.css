@@ -7,6 +7,21 @@ body{
     margin: 0%;
     background-color: #3a3535;
 }
+table{
+    display: ;
+    margin: auto;
+    margin-left: 25%;
+    margin-right: 30%;
+    color: #000;
+    background-color: #ffffff;
+}
+img {
+ width: 350px;
+ height: 200px;
+}
+a>img:hover{
+    display: block ;
+}
 h1{
     text-align: center;
 }
@@ -19,7 +34,6 @@ ul{
     position: sticky;
     top: 0%;
 }
-
 .menu li a{
  display: block;
  color: #ffffff;
@@ -39,7 +53,7 @@ ul{
        background-color: #034353;
 }
 .menu li ul{
-    display :block;
+    display :none;
     position: fixed;
     line-height: 20px;
     min-width: 140px;
@@ -83,8 +97,7 @@ ul{
            position: fixed;
            min-width: 140px;
        }
-       .menu li:hover>ul{
-        display: fixed;
+       
     }
 }
 

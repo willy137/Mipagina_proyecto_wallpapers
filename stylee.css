@@ -3,16 +3,23 @@ header{
     margin: auto;
     padding: 1.52%;
 }
-
-.navbar{
+body{
+    margin: 0%;
+    background-color: #3a3535;
+}
+div h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin-top: auto;
+ }
+ .navbar{
     overflow: hidden;
     position: sticky;
     top: 0%;
 }
-ul{
-   list-style: none;
-   margin-top: auto;
-}
+
 .menu li a{
  display: block;
  color: #ffffff;
@@ -32,7 +39,7 @@ ul{
        background-color: #034353;
 }
 .menu li ul{
-    display :none;
+    display :block;
     position: fixed;
     line-height: 20px;
     min-width: 140px;
@@ -40,7 +47,45 @@ ul{
 .menu li:hover>ul{
     display: block;
 }
-body{
-    margin: 0%;
-    background-color: #3a3535;
+
+@media screen and (max-width:400px){
+    header{
+        margin: auto;
+        padding: 5%;
+    }
+    body{
+        background-color: #3f3d3d;
+    }
+    .navbar{
+        overflow: hidden;
+        position: static;
+    }
+    .menu >li{
+        float:left;
+        margin-top: 0%;
+        line-height: 0%;
+        margin-left: 0%;
+       }
+    .menu li a{
+        display: block;
+        color: #ffffff;
+        padding: 10px 15px;
+        text-decoration: none;
+       }
+       .menu>li:hover{
+           background-color: #034353;
+       }
+       .menu li>a:hover{
+              background-color: #034353;
+       }
+       .menu li ul{
+           display :none;
+           position: fixed;
+           min-width: 140px;
+       }
+       .menu li:hover>ul{
+        display: fixed;
+    }
 }
+
+

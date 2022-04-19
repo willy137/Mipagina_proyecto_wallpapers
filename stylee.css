@@ -8,7 +8,6 @@ body{
     background-color: #3a3535;
 }
 table{
-    display: ;
     margin: auto;
     margin-left: 25%;
     margin-right: 30%;
@@ -63,24 +62,24 @@ ul{
 }
 
 @media screen and (max-width:400px){
-    header{
+     header{
         margin: auto;
         padding: 5%;
-    }
-    body{
+        }
+      body{
         background-color: #3f3d3d;
-    }
-    .navbar{
+        }
+      .navbar{
         overflow: hidden;
         position: static;
-    }
-    .menu >li{
+        }
+      .menu >li{
         float:left;
         margin-top: 0%;
         line-height: 0%;
         margin-left: 0%;
        }
-    .menu li a{
+      .menu li a{
         display: block;
         color: #ffffff;
         padding: 10px 15px;
@@ -99,6 +98,6 @@ ul{
        }
        
     }
-}
+
 
 

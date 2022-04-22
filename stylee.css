@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
 header{
     background-color: #3f7c6a;
     margin: auto;
     padding: 1.52%;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
 }
 body{
     margin: 0%;

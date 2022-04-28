@@ -10,12 +10,15 @@ body{
     margin: 0%;
     background-color: #3a3535;
 }
+.cambio{
+  
+}
 table{
     margin: auto;
     margin-left: 25%;
     margin-right: 30%;
-    color: #000;
-    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    background-color: #530808;
 }
 img {
  width: 350px;
@@ -26,6 +29,7 @@ a>img:hover{
 }
 h1{
     text-align: center;
+    color: #bdb8b8;
 }
 ul{
     list-style: none;

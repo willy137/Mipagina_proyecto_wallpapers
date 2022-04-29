@@ -108,8 +108,8 @@ ul{
            position: fixed;
            min-width: 140px;
        }
-       .central{
-        color: rgb(255, 255, 255);
+       .central{ 
+        color: #ffffff;
         background-color: #530808;
     }
        

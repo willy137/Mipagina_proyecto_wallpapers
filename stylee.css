@@ -82,8 +82,8 @@ ul{
         position: static;
         }
       img {
-            width: 200px;
-            height: 100px;
+            width: 150px;
+            height: 75px;
         }
       .menu >li{
         display: block;
@@ -108,7 +108,10 @@ ul{
            position: fixed;
            min-width: 140px;
        }
-       .central{ 
+       .central { 
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
         color: #ffffff;
         background-color: #530808;
     }

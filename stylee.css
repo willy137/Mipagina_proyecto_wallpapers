@@ -8,6 +8,9 @@ header{
 }
 body{
     margin: 0%;
+    background:no-repeat;
+    background-image: url(Fondo/2.png);
+    background-size: cover;
     background-color: #3a3535;
 }
 .central{
@@ -68,7 +71,6 @@ ul{
 .menu li:hover>ul{
     display: block;
 }
-
 @media screen and (max-width:480px ){
      header{
         margin: auto;

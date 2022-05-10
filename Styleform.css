@@ -18,8 +18,9 @@ body{
     body{
       margin:0 ;
      background-repeat: no-repeat;
-     background-image:url(Fondo/manga-kimetsu-sin-yaiba-papel-pintado-240x320_180.jpg) ;
-        background-size: cover;
+     background-image:url(Fondo/kimet.png) ;
+     background-size: auto;
+     background-color: #4b4a4a;
     }
     .formulario{
       font-family: 'Times New Roman', Times, serif;

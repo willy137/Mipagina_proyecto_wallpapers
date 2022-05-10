@@ -1,0 +1,16 @@
+body{
+    margin:0 ;
+    background-repeat: no-repeat;
+    background-image:url(Fondo/2kimetsu.jpg) ;
+    background-size: cover;
+}
+.formulario{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5%;
+    background-color: #ad1212;
+    width:25%;
+    padding: 10px;
+}
+

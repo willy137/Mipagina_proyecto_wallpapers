@@ -14,3 +14,24 @@ body{
     padding: 10px;
 }
 
+@media screen and (max-width:480px ){
+    body{
+      margin:0 ;
+     background-repeat: no-repeat;
+     background-image:url(Fondo/2kimetsu.jpg) ;
+        background-size: cover;
+    }
+    .formulario{
+      font-family: 'Times New Roman', Times, serif;
+     margin: auto;
+     margin-top: 10%;
+     border-radius: 5%;
+     background-color: #ad1212;
+     width:55%;
+     padding: 30px;
+     padding-left: 15px;
+    }
+    .tama{
+        width: 108%;
+    }
+}

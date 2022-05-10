@@ -10,7 +10,7 @@ body{
     margin: 0%;
     background:no-repeat;
     background-image: url(Fondo/2.png);
-    background-size: cover;
+    background-size: auto;
     background-color: #3a3535;
 }
 .central{
@@ -77,6 +77,8 @@ ul{
         padding: 5%;
         }
       body{
+        background-repeat: no-repeat;
+        background-image: url(Fondo/garou.jfif);
         background-color: #3a3535;
         }
       .navbar{

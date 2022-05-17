@@ -6,10 +6,11 @@ function CarruselS() {
         imagenes[2]="muestra/Fate.jpg"
         imagenes[3]="muestra/hyouka.jpg"
         imagenes[4]="muestra/steins gate.jpg"
-    if (cambiar==5) {
+    if (cambiar<4) {
+        cambiar+=1;
+    }else if(cambiar==4){
         cambiar=0;
     }
-    cambiar+=1;
     document.galeria.src=imagenes[cambiar];
     return true;
 }

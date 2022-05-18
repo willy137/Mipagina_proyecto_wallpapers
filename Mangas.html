@@ -12,24 +12,29 @@
     <body>
     <!-- menu-->
     <div class="navbar">
-    <header class="menu" >
-    <ul class="menu"> 
-        <li><a href="#" >Wallpaper</a>
+    <header class="menu">
+        <ul class="menu"> 
+         <li><a href="#" >Wallpaper</a>
             <ul>
                 <li><a href="index.html">Computadoras</a></li>
                 <li><a href="#">Celulares</a></li>
             </ul>
-        </li>
-        <li><a href="#">Foro</a></li>
-        <li><a href="#" >Informacion </a></li>
-        <li><a>Disfruten del contenido </a></li>
-    </ul>
+         </li>
+         <li><a href="info.html" >Informacion </a></li>
+         <li><a>Disfruten del contenido </a></li>
+        </ul>
+        <ul>
+            <li class="ladoderecho"><button class="cambio" onclick="modoOscuro()"><img src="fav2/luna.png" alt="modoscu"></button>
+            </li>
+        </ul>
     </header>
+    </div>
+    <div class="posi">
+        <button onclick="CarruselA()">Anterior</button>
+        <img src="muestra/jujutsu-kaisen_3840x2160_xtrafondos.jpg" alt="jujutsu" name="galeria">
+        <button onclick="CarruselS()">Siguiente</button>
+    </div>
     <div>
-        <img src="./muestra/jujutsu-kaisen_3840x2160_xtrafondos.jpg" alt="jujutsu" name="galeria"><form>
-            <input type="button" onclick="CarruselA()" value="Anterior">
-            <input type="button" onclick="CarruselS()" value="Cambiar">
-        </form>
     </div>
     </body>
 </html>

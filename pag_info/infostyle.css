@@ -1,27 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
+body{
+    margin: 0%;
+    background-color: #3a3535;
+}
+header{
+    margin: auto;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
+}
+ul{
+    list-style: none;
+    margin-top: none;
+}
+.navbar{
+    overflow: hidden;
+    position: sticky;
+    background-color: #3f7c6a;
+    top: 0%;
+}
 .menu li a{
-    display: block;
-    color: #ffffff;
-    padding: 10px 15px;
-    text-decoration: none;
-   }
-   .menu >li{
-    float:left;
-    margin-top: 0%;
-    line-height: 0%;
-    margin-left: 15%;
-   }
-   .menu>li:hover{
+ display: block;
+ color: #ffffff;
+ text-decoration: none;
+}
+.menu >li{
+ float:left;
+ padding: 10px 15px;
+ margin-left: 15%;
+}
+.menu>li:hover{
+    background-color: #034353;
+}
+.menu li>a:hover{
        background-color: #034353;
-   }
-   .menu li>a:hover{
-          background-color: #034353;
-   }
-   .menu li ul{
-       display :none;
-       position: fixed;
-       line-height: 20px;
-       min-width: 140px;
-   }
-   .menu li:hover>ul{
-       display: block;
-   }
+}
+.menu li ul{
+    display :none;
+    position: fixed;
+    line-height: 20px;
+    min-width: 140px;
+}
+.menu li:hover>ul{
+    display: block;
+}

@@ -1,48 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
-header{
-    background-color: #3f7c6a;
-    margin: auto;
-    padding: 1.52%;
-    font-family: 'Bangers', cursive;
-    font-size: larger;
-}
-.posi1{
-    display: grid;
-    align-content: center;
-    grid-area: main;
-    background-color: #530808;
-    padding: 0% 0%;
-    text-align: center;
-}
-.posi2{
-    display: grid;
-    grid-area: main1;
-    background-color: #530808;
-    text-align: left;
-    width: 370px;
-}
-table{
-    border: 1px solid;
-}
 body{
     margin: 0%;
     background-color: #3a3535;
 }
-.central{
-    display: grid;
-    grid-template-areas: 
-    'menu vacio main main1'
-    'menu vacio main main1'
-    'menu vacio main main1';
-    width: 1080px;
-}
-.ladoiz{
-    display: grid;
-    grid-area: menu;
-    color: #ffffff;
-    width: 200px;
-}
-img {
+.imagenes{
  width: 350px;
  height: 200px;
 }
@@ -54,25 +15,53 @@ h2{
     text-align: center;
     color: #ffffff;
 }
+/* carrusel */
+.posi{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.posi>img{
+    width: 325px;
+    height: 230px;
+}
+/*menu*/
+header{
+    margin: auto;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
+}
+.cambio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 35px;
+    background-color: #04a9df;
+}
+.ladoderecho{
+    float: right;
+    margin-right: 5%;
+}
 ul{
     list-style: none;
-    margin-top: auto;
+    margin-top: none;
 }
- .navbar{
+.navbar{
     overflow: hidden;
     position: sticky;
+    background-color: #3f7c6a;
     top: 0%;
 }
 .menu li a{
  display: block;
  color: #ffffff;
- padding: 10px 15px;
  text-decoration: none;
 }
 .menu >li{
  float:left;
- margin-top: 0%;
- line-height: 0%;
+ padding: 10px 15px;
  margin-left: 15%;
 }
 .menu>li:hover{
@@ -95,50 +84,6 @@ ul{
         margin: auto;
         padding: 5%;
         }
-      body{
-        background-repeat: no-repeat;
-        background-image: url(Fondo/garou.jfif);
-        background-color: #3a3535;
-        }
-      .navbar{
-        overflow: hidden;
-        position: static;
-        }
-      img {
-            width: 160px;
-            height: 80px;
-        }
-      .menu >li{
-        display: block;
-        margin-top: 0%;
-        line-height: 0%;
-        margin-left: 0%;
-       }
-      .menu li a{
-        display: block;
-        color: #ffffff;
-        padding: 10px 15px;
-        text-decoration: none;
-       }
-       .menu>li:hover{
-           background-color: #034353;
-       }
-       .menu li>a:hover{
-              background-color: #034353;
-       }
-       .menu li ul{
-           display :none;
-           position: fixed;
-           min-width: 140px;
-       }
-       .central { 
-        margin: auto;
-        margin-left: 10%;
-        margin-right: 5%;
-        color: #ffffff;
-        background-color: #530808;
-    }
-       
     }
 
 

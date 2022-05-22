@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
 header{
     margin: auto;
-    font-family: 'Bangers', cursive;
-    font-size: larger;
 }
+/*parte del maedio*/
 .ladoderecho{
     float: right;
     margin-right: 5%;
@@ -23,26 +22,44 @@ header{
     text-align: left;
     width: 370px;
 }
+.camdea{
+    text-align: center;
+     color: #04a9df;
+}
 table{
     border: 1px solid;
 }
 body{
     margin: 0%;
-    background-color: #3a3535;
+    background-color: #1f1e1ef5;
 }
 .central{
     display: grid;
     grid-template-areas: 
     'menu vacio main main1'
     'menu vacio main main1'
-    'menu vacio main main1';
+    'abajo abajo abajo abajo';
     width: 1080px;
+}
+.partebaja{
+    display: grid;
+    grid-area: abajo;
+    height: 100px;
+
 }
 .ladoiz{
     display: grid;
     grid-area: menu;
     color: #ffffff;
+    border: 1px solid;
+    border-color: #034353;
     width: 200px;
+    height: 800px;
+    background-color: #530808;
+    justify-items: center;
+}
+.ladoiz>a{
+    color: #04a9df;
 }
 a>img{
     width: 350px;
@@ -69,11 +86,14 @@ ul{
     list-style: none;
     margin-top: none;
 }
+/*Menu*/
 .navbar{
     overflow: hidden;
     position: sticky;
-    background-color: #3f7c6a;
+    background-color: #6cce8d;
     top: 0%;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
 }
 .menu li a{
  display: block;

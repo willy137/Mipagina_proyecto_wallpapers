@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
 body{
     margin: 0%;
-    background-color: #3a3535;
+    background-color: #100f0f;
 }
 .imagenes{
  width: 350px;
@@ -51,7 +51,7 @@ ul{
 .navbar{
     overflow: hidden;
     position: sticky;
-    background-color: #3f7c6a;
+    background-color: #00b781;
     top: 0%;
 }
 .menu li a{

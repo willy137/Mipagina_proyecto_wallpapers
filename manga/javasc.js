@@ -5,6 +5,7 @@ imagenes[1]="muestra/bleach.jpg"
 imagenes[2]="muestra/Fate.jpg"
 imagenes[3]="muestra/hyouka.jpg"
 imagenes[4]="muestra/steins gate.jpg"
+let tiempo=setInterval(CarruselS,4000);
 function CarruselS() {
     if (cambiar<4) {
         cambiar+=1;

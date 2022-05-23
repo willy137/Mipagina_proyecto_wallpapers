@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
 body{
     margin: 0%;
-    background-color: #100f0f;
+    background-color: #1f1e1ef5;
 }
 .imagenes{
  width: 350px;
@@ -21,6 +21,10 @@ h2{
     display: flex;
     justify-content: center;
 }
+.posi>button{
+    background-color: #59c1c96c;
+    border-color: #206cddf6;
+}
 .posi>img{
     width: 325px;
     height: 230px;
@@ -28,8 +32,6 @@ h2{
 /*menu*/
 header{
     margin: auto;
-    font-family: 'Bangers', cursive;
-    font-size: larger;
 }
 .cambio{
     display: flex;
@@ -51,12 +53,14 @@ ul{
 .navbar{
     overflow: hidden;
     position: sticky;
-    background-color: #00b781;
+    background-color:   #490483db;
     top: 0%;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
 }
 .menu li a{
  display: block;
- color: #ffffff;
+ color: #68ceff;
  text-decoration: none;
 }
 .menu >li{

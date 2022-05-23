@@ -5,8 +5,39 @@ body{
 }
 header{
     margin: auto;
-    font-family: 'Bangers', cursive;
-    font-size: larger;
+}
+h1{
+    text-align: center;
+    color: #68ceff;
+}
+.tabla{
+    display: flex;
+    border: 1px solid;
+    margin: auto;
+    width: 900px;
+    border-color: #68ceff;
+}
+td{
+    border: 1px solid;
+    border-color: #68ceff;
+}
+.ilus{
+    width: 100px;
+    height: 140px;
+}
+/*MENU*/
+.cambio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 35px;
+    background-color: #04a9df;
+}
+.ladoderecho{
+    float: right;
+    margin-right: 5%;
 }
 ul{
     list-style: none;
@@ -15,12 +46,14 @@ ul{
 .navbar{
     overflow: hidden;
     position: sticky;
-    background-color: #3f7c6a;
+    background-color:   #490483db;
     top: 0%;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
 }
 .menu li a{
  display: block;
- color: #ffffff;
+ color: #68ceff;
  text-decoration: none;
 }
 .menu >li{

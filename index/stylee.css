@@ -11,20 +11,20 @@ header{
     display: grid;
     align-content: center;
     grid-area: main;
-    background-color: #530808;
+    background-color: #490483db;
     padding: 0% 0%;
     text-align: center;
 }
 .posi2{
     display: grid;
     grid-area: main1;
-    background-color: #530808;
+    background-color: #490483db;
     text-align: left;
     width: 370px;
 }
 .camdea{
     text-align: center;
-     color: #04a9df;
+     color: #afebff;
 }
 table{
     border: 1px solid;
@@ -41,6 +41,20 @@ body{
     'abajo abajo abajo abajo';
     width: 1080px;
 }
+.numer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.numer>button{
+    justify-content: center;
+    margin-left: 5px;
+    border-radius: 50px;
+    width: 40px;
+    background-color: #034353;
+    height: 40px;
+    border-color: #04a9df;
+}
 .partebaja{
     display: grid;
     grid-area: abajo;
@@ -50,16 +64,16 @@ body{
 .ladoiz{
     display: grid;
     grid-area: menu;
-    color: #ffffff;
+    color: #68ceff;
     border: 1px solid;
-    border-color: #034353;
+    border-color: #b54fff;
     width: 200px;
     height: 800px;
-    background-color: #530808;
+    background-color: #490483db;
     justify-items: center;
 }
 .ladoiz>a{
-    color: #04a9df;
+    color: #afebff;
 }
 a>img{
     width: 350px;
@@ -67,11 +81,11 @@ a>img{
 }
 h1{
     text-align: center;
-    color: #bdb8b8;
+    color: #68ceff;
 }
 h2{
     text-align: center;
-    color: #ffffff;
+    color: #68ceff;
 }
 .cambio{
     display: flex;
@@ -90,14 +104,14 @@ ul{
 .navbar{
     overflow: hidden;
     position: sticky;
-    background-color: #6cce8d;
+    background-color:   #490483db;
     top: 0%;
     font-family: 'Bangers', cursive;
     font-size: larger;
 }
 .menu li a{
  display: block;
- color: #ffffff;
+ color: #68ceff;
  text-decoration: none;
 }
 .menu >li{

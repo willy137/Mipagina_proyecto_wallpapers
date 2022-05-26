@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
+.modo_oscuro{
+    background-color: #cd73ff;
+}
+.modo.normal{
+    background-color: #3a3535;
+}
 header{
     margin: auto;
 }

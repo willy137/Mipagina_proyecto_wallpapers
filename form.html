@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="fav2/favicon.ico">
     <link rel="stylesheet" href="Styleform.css">
     <title>Formlario Mangamix</title>
+    <script src="formu.js"></script>
 </head>    
 <body>
     <div class="formulario">
         <h1>Formulario de contacto</h1>
-        <form action="">
-            <label for="nombre">Nombre:</label><br>
-            <input form="text" id="nombre" name="nombre" required><br>
-            <label for="Correo"> Correo electronico:</label><br>
-            <input type="text" id="Correo" name="Correo" required><br>
-            <label for="asunto">Asunto:</label><br>
-            <input type="text" id="asunto" name="temadelmensaje"><br>
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea class="tama" name="mensaje_explicacion" id="mensaje" cols="30" rows="10"></textarea><br>
-            <input type="submit" value="Enviar"><br>
+        <form onsubmit='return comprobar(event)'>
+                <div class="forarri">
+                <label for="nombre">Nombre:</label>
+                <input form="text" id="nombre" name="nombre" >
+                <label for="Correo"> Correo</label>
+                <input type="text" id="Correo" name="Correo" >
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="temadelmensaje">
+                </div>
+                <div class="forabajo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="tama" name="mensaje_explicacion" id="mensaje" cols="43" rows="5"></textarea>
+                </div>
+                <label for="preg">Le gusto nuestra pagina?</label>
+                <div>
+                    <input type="radio" name="meg" id="meg" value="1">
+                    <label for="meg" name="cam">Me gusto</label>
+                    <input type="radio" name="meg" id="nomeg" value="0" >
+                    <label for="nomeg" name="cam">No me gusto</label>
+                </div>
+                <button type="submit">Enviar</button>
         </form>
+    </div>
+    <div class="lista">
+        <ul id="residuo">
+            
+        </ul>
     </div>
 </body>
 </html>

@@ -4,16 +4,46 @@ body{
     background-image:url(Fondo/2kimetsu.jpg) ;
     background-size: cover;
 }
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .formulario{
+    display: block;
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     margin-top: 10%;
     border-radius: 5%;
-    background-color: #ad1212;
+    background-color:black;
+    color: white;
     width:25%;
-    padding: 10px;
+    padding: 12px;
 }
-
+.forarri{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.forabajo{
+    display: flex;
+    flex-direction: column;
+}
+.formg{
+    color: red;
+}
+.incorrecto{
+    border-color:red;
+}
+.lista{
+    background-color: black;
+    width: 400px;
+    color: red;
+    font-family: cursive;
+}
+.normal{
+    border-color: revert;
+}
 @media screen and (max-width:480px ){
     body{
       margin:0 ;

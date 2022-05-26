@@ -1,9 +1,10 @@
 var cant=0;
 function modoOscuro(){
-    document.body.style.background='#cd73ff';
+    let bo=document.body;
+    bo.className='modo_oscuro';
     cant+=1;
     if(cant==2){
-        document.body.style.background='#3a3535';
+        bo.className='modo_normal';
         cant=0;
     }
 }

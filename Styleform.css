@@ -44,6 +44,12 @@ form{
 .normal{
     border-color: revert;
 }
+.lismen{
+    background-color: black;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
 @media screen and (max-width:480px ){
     body{
       margin:0 ;

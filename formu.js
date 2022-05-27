@@ -1,5 +1,22 @@
 function comprobar(){
     if(validar()){
+        let nom=document.querySelector("#nombre");
+        let corr=document.querySelector("#Correo");
+        let asu=document.querySelector("#asunto");
+        let men=document.querySelector("#mensaje");
+        let mg=document.getElementsByName("meg");
+        let guar;
+        let lugar=document.querySelector("#todo_form")
+        let li=document.createElement("li");
+        guar=`${nom.value}  Mail:${corr.value}<br> nos informa sobre el asunto(${asu.value}) lo siguiente:<br>${men.value}. <br>`;
+        if(mg[1].checked){
+            guar+=`Ademas, no le gusto la pagina.`;
+        }else{
+            guar+=`Ademas, si le gusto la pagina.`;
+        }
+        li.innerHTML=guar;
+        lugar.appendChild(li);
+
     }
     return false;
 }
@@ -49,5 +66,6 @@ function validar(){
         li.innerHTML=lis[i];
         errorlist.appendChild(li);
     }
-    return false;
+
+    return lis.length==0;
 }

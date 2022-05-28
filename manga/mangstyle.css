@@ -5,6 +5,18 @@
 .modo.normal{
     background-color: #3a3535;
 }
+.nombres{
+    display: flex;
+    justify-content: space-around;
+}
+.nombres>a{
+    width: 180px;
+}
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 body{
     margin: 0%;
     background-color: #1f1e1ef5;

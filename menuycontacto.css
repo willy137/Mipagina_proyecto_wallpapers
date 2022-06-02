@@ -1,0 +1,72 @@
+/*Menu*/
+header{
+    margin: auto;
+}
+.cambio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 35px;
+    background-color: #04a9df;
+}
+.ladoderecho{
+    float: right;
+    margin-right: 5%;
+}
+ul{
+    list-style: none;
+    margin-top: none;
+}
+.navbar{
+    overflow: hidden;
+    position: sticky;
+    background-color:   #490483db;
+    top: 0%;
+    font-family: 'Bangers', cursive;
+    font-size: larger;
+}
+.menu li a{
+ display: block;
+ color: #68ceff;
+ text-decoration: none;
+}
+.menu >li{
+ float:left;
+ padding: 10px 15px;
+ margin-left: 15%;
+}
+.menu>li:hover{
+    background-color: #034353;
+}
+.menu li>a:hover{
+       background-color: #034353;
+}
+.menu li ul{
+    display :none;
+    position: fixed;
+    line-height: 20px;
+    min-width: 140px;
+}
+.menu li:hover>ul{
+    display: block;
+}
+/*Parte contacto*/
+.contac{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #57505069;
+}
+h4{
+    font-size: larger;
+}
+.contac>div>a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #04a9df;
+}
+.contac>div>p{
+    color: #9be0f1be;
+}

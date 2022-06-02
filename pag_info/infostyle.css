@@ -16,69 +16,86 @@ h1{
     text-align: center;
     color: #68ceff;
 }
-.tabla{
+.textimg{
+    display: grid;
+    grid-template-areas: 
+    'nom hist'
+    'img text'
+    'img text'
+    ;
+    background-color: #1c728fa1;
+}
+.historia{
+    display: grid;
+    grid-area: hist;
+    justify-items: center;
+    color: #ffffff;
+    background-color: #3f095cb2;
+}
+.ob{
+    display: grid;
+    grid-area: nom;
+    justify-items: center;
+    color: #ffffff;
+    background-color: #3f095cb2;
+}
+.indi{
     display: flex;
+    flex-direction: column;
+    background-color: #14ddd4ad;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     border: 1px solid;
+}
+.indi>p{
     margin: auto;
-    width: 900px;
-    border-color: #68ceff;
+    margin-bottom: 1px;
 }
-td{
-    border: 1px solid;
-    border-color: #68ceff;
+.indi>hr{
+    width: 199px;
+    border-color: #3a3535;
 }
-.ilus{
-    width: 100px;
-    height: 140px;
+.image{
+    display: grid;
+    grid-area: img;
 }
-/*MENU*/
-.cambio{
-    display: flex;
-    justify-content: space-evenly;
+.texto{
+    display: grid;
+    grid-area: text;
+    margin-left: 20px;
     align-items: center;
-    border-radius: 50%;
-    width: 36px;
-    height: 35px;
-    background-color: #04a9df;
 }
-.ladoderecho{
-    float: right;
-    margin-right: 5%;
+.manga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-ul{
-    list-style: none;
-    margin-top: none;
+.mangcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c728fa1;
+    width: 800px;
 }
-.navbar{
-    overflow: hidden;
-    position: sticky;
-    background-color:   #490483db;
-    top: 0%;
-    font-family: 'Bangers', cursive;
-    font-size: larger;
+.modp{
+    width: 700px;
+    border: 2px solid;
+    border-color: #68ceff;
 }
-.menu li a{
- display: block;
- color: #68ceff;
- text-decoration: none;
+.nom{
+    padding: 0px;
+    margin-left: 5px;
 }
-.menu >li{
- float:left;
- padding: 10px 15px;
- margin-left: 15%;
+.nom1{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
 }
-.menu>li:hover{
-    background-color: #034353;
-}
-.menu li>a:hover{
-       background-color: #034353;
-}
-.menu li ul{
-    display :none;
-    position: fixed;
-    line-height: 20px;
-    min-width: 140px;
-}
-.menu li:hover>ul{
-    display: block;
+.image>img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 130px;
+    height: 170px;
 }

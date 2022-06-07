@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
 .modo_oscuro{
     background-color: #cd73ff;
 }
@@ -15,6 +15,10 @@ header{
 h1{
     text-align: center;
     color: #68ceff;
+}
+p{
+    font-family: 'Karma', serif;
+    font-size: medium;
 }
 .textimg{
     display: grid;
@@ -43,19 +47,26 @@ h1{
     display: flex;
     flex-direction: column;
     background-color: #14ddd4ad;
-    width: 200px;
-    height: 250px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin:auto; 
     border: 1px solid;
+    width: 1300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .indi>p{
     margin: auto;
     margin-bottom: 1px;
 }
-.indi>hr{
-    width: 199px;
-    border-color: #3a3535;
+.indice2{
+    display:block ;
+    margin-bottom: 10px;
+}
+.indice2>ol>li{
+    float: left;
+    width: 125px;
+}
+ol>li>a{
+    color: #966407de;
 }
 .image{
     display: grid;
